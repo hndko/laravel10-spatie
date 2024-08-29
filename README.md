@@ -1,6 +1,6 @@
 # Laravel 10 - Spatie
 
-Contoh Penerapan Laravel 10 - Spatie
+Contoh Penerapan Laravel 10 - Spatie + Breeze Admin
 
 ## Deployment
 
