@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\HakRoleController;
 use App\Http\Controllers\ProfileController;
 
@@ -16,6 +17,7 @@ use App\Http\Controllers\ProfileController;
 */
 
 Route::resource('roles', HakRoleController::class);
+Route::resource('users', UserController::class);
 
 Route::get('/', function () {
     return view('welcome');
